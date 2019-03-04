@@ -1,0 +1,145 @@
+{
+  "root_items": [
+    {
+      "id": "wb_group",
+      "type": "GROUP",
+      "name": "Workbench",
+      "description": "The navigation tree used to display the workbench's top menu bar",
+      "modifiable": false,
+      "children": [
+        {
+          "id": "wb_group_design",
+          "type": "GROUP",
+          "name": "Design",
+          "description": "Design",
+          "modifiable": false,
+          "children": [
+            {
+              "id": "wb_entry_projects",
+              "type": "ITEM",
+              "name": "Projects",
+              "description": "Projects",
+              "modifiable": true,
+              "context": "resourceId=LibraryPerspective;resourceType=PERSPECTIVE;"
+            },
+            {
+              "id": "wb_entry_pages",
+              "type": "ITEM",
+              "name": "Pages",
+              "description": "Pages",
+              "modifiable": false,
+              "context": "resourceId=ContentManagerPerspective;resourceType=PERSPECTIVE;"
+            }
+          ]
+        },
+        {
+          "id": "wb_group_deploy",
+          "type": "GROUP",
+          "name": "Deploy",
+          "description": "Deploy",
+          "modifiable": true,
+          "children": [
+            {
+              "id": "wb_entry_provisioning",
+              "type": "ITEM",
+              "name": "Provisioning",
+              "description": "Provisioning",
+              "modifiable": true,
+              "context": "resourceId=ProvisioningManagementPerspective;resourceType=PERSPECTIVE;"
+            },
+            {
+              "id": "wb_entry_execution_servers",
+              "type": "ITEM",
+              "name": "Execution Servers",
+              "description": "Execution Servers",
+              "modifiable": true,
+              "context": "resourceId=ServerManagementPerspective;resourceType=PERSPECTIVE;"
+            }
+          ]
+        },
+        {
+          "id": "wb_group_manage",
+          "type": "GROUP",
+          "name": "Manage",
+          "description": "Manage",
+          "modifiable": true,
+          "children": [
+            {
+              "id": "wb_entry_process_definitions",
+              "type": "ITEM",
+              "name": "Process Definitions",
+              "description": "Process Definitions",
+              "modifiable": true,
+              "context": "resourceId=ProcessDefinitions;resourceType=PERSPECTIVE;"
+            },
+            {
+              "id": "wb_entry_process_instances",
+              "type": "ITEM",
+              "name": "Process Instances",
+              "description": "Process Instances",
+              "modifiable": true,
+              "context": "resourceId=ProcessInstances;resourceType=PERSPECTIVE;"
+            },
+            {
+              "id": "wb_entry_task_administration",
+              "type": "ITEM",
+              "name": "Tasks",
+              "description": "Tasks",
+              "modifiable": true,
+              "context": "resourceId=TaskAdmin;resourceType=PERSPECTIVE;"
+            },
+            {
+              "id": "wb_entry_jobs",
+              "type": "ITEM",
+              "name": "Jobs",
+              "description": "Jobs",
+              "modifiable": true,
+              "context": "resourceId=Requests;resourceType=PERSPECTIVE;"
+            },
+            {
+              "id": "wb_execution_errors",
+              "type": "ITEM",
+              "name": "Execution Errors",
+              "description": "Execution Errors",
+              "modifiable": true,
+              "context": "resourceId=ExecutionErrors;resourceType=PERSPECTIVE;"
+            }
+          ]
+        },
+        {
+          "id": "wb_group_track",
+          "type": "GROUP",
+          "name": "Track",
+          "description": "Track",
+          "modifiable": true,
+          "children": [
+            {
+              "id": "wb_entry_tasks_list",
+              "type": "ITEM",
+              "name": "Task Inbox",
+              "description": "Task Inbox",
+              "modifiable": true,
+              "context": "resourceId=Tasks;resourceType=PERSPECTIVE;"
+            },
+            {
+              "id": "wb_entry_process_dashboard",
+              "type": "ITEM",
+              "name": "Process Reports",
+              "description": "Process Reports",
+              "modifiable": true,
+              "context": "resourceId=ProcessDashboardPerspective;resourceType=PERSPECTIVE;"
+            },
+            {
+              "id": "wb_entry_task_dashboard",
+              "type": "ITEM",
+              "name": "Task Reports",
+              "description": "Task Reports",
+              "modifiable": true,
+              "context": "resourceId=TaskDashboardPerspective;resourceType=PERSPECTIVE;"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
