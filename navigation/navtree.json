@@ -143,6 +143,13 @@
               "name": "Task Summary",
               "modifiable": true,
               "context": "resourceId=Task Summary;resourceType=PERSPECTIVE;"
+            },
+            {
+              "id": "perspective_1551732063492",
+              "type": "ITEM",
+              "name": "Case Level Metrics",
+              "modifiable": true,
+              "context": "resourceId=Case Level Metrics;resourceType=PERSPECTIVE;"
             }
           ]
         }
