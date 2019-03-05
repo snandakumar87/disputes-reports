@@ -45,7 +45,7 @@
           ]
         },
         {
-          "span": "3",
+          "span": "6",
           "height": "12",
           "properties": {},
           "rows": [],
@@ -57,7 +57,13 @@
               }
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
         {
           "span": "3",
           "height": "12",
@@ -68,6 +74,21 @@
               "dragTypeName": "org.dashbuilder.client.editor.PieChartDragComponent",
               "properties": {
                 "json": "{\n  \"uuid\": \"gwt-uid-19270\",\n  \"type\": \"PIECHART\",\n  \"general\": {\n    \"title\": \"Automated vs Approval\",\n    \"visible\": \"true\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"300\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"10\",\n      \"left\": \"10\",\n      \"right\": \"100\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"137097f4-ffa5-4e4c-ae48-d2fd8ab473fe\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"ITEMNAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"automated\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"ITEMVALUE\",\n          \"column\": \"ITEMVALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"ITEMVALUE\",\n            \"column\": \"ITEMVALUE\"\n          },\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
+              }
+            }
+          ]
+        },
+        {
+          "span": "9",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.dashbuilder.client.editor.TableDragComponent",
+              "properties": {
+                "width": "200px",
+                "json": "{\n  \"uuid\": \"gwt-uid-18650\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"Automated Chargebacks\",\n    \"visible\": \"true\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"renderer\": \"default\",\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"137097f4-ffa5-4e4c-ae48-d2fd8ab473fe\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"ITEMNAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"automated\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"ITEMVALUE\",\n          \"column\": \"ITEMVALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"LASTMODIFIED\",\n            \"column\": \"LASTMODIFIED\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  },\n  \"columns\": [\n    {\n      \"id\": \"LASTMODIFIED\",\n      \"name\": \"DATE\"\n    }\n  ]\n}"
               }
             }
           ]
@@ -85,21 +106,6 @@
           "rows": [],
           "layoutComponents": [
             {
-              "dragTypeName": "org.dashbuilder.client.editor.TableDragComponent",
-              "properties": {
-                "width": "200px",
-                "json": "{\n  \"uuid\": \"gwt-uid-18650\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"Automated Chargebacks\",\n    \"visible\": \"true\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"renderer\": \"default\",\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"137097f4-ffa5-4e4c-ae48-d2fd8ab473fe\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"ITEMNAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"automated\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"ITEMVALUE\",\n          \"column\": \"ITEMVALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"LASTMODIFIED\",\n            \"column\": \"LASTMODIFIED\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  },\n  \"columns\": [\n    {\n      \"id\": \"LASTMODIFIED\",\n      \"name\": \"DATE\"\n    }\n  ]\n}"
-              }
-            }
-          ]
-        },
-        {
-          "span": "3",
-          "height": "12",
-          "properties": {},
-          "rows": [],
-          "layoutComponents": [
-            {
               "dragTypeName": "org.dashbuilder.client.editor.BarChartDragComponent",
               "properties": {
                 "json": "{\n  \"uuid\": \"gwt-uid-492\",\n  \"type\": \"BARCHART\",\n  \"subtype\": \"COLUMN\",\n  \"general\": {\n    \"title\": \"2nd Level Approval\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"250\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"40\",\n      \"left\": \"100\",\n      \"right\": \"50\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"axis\": {\n    \"x\": {\n      \"title\": \"2nd Level Approval\",\n      \"labels_show\": \"true\"\n    },\n    \"y\": {\n      \"labels_show\": \"true\",\n      \"title\": \"Cases\"\n    }\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"b52cb180-0191-4f4e-9f26-5639b29b52c9\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"NAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"managerApproval\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"VALUE\",\n          \"column\": \"VALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"VALUE\",\n            \"column\": \"VALUE\"\n          },\n          {\n            \"source\": \"TASKID\",\n            \"column\": \"TASKID\",\n            \"function\": \"SUM\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  },\n  \"columns\": [\n    {\n      \"id\": \"VALUE\",\n      \"expression\": \"\u0027manager\u0027\"\n    }\n  ]\n}"
@@ -108,7 +114,7 @@
           ]
         },
         {
-          "span": "3",
+          "span": "6",
           "height": "12",
           "properties": {},
           "rows": [],
