@@ -3,7 +3,6 @@
   "name": "Automated Chargebacks",
   "style": "FLUID",
   "layoutProperties": {
-    "margin-left": "250px",
     "padding-left": "150px"
   },
   "rows": [
@@ -14,12 +13,15 @@
         {
           "span": "12",
           "height": "12",
-          "properties": {},
+          "properties": {
+            "margin-left": "150px"
+          },
           "rows": [],
           "layoutComponents": [
             {
               "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
               "properties": {
+                "margin-left": "150px",
                 "HTML_CODE": "\u003ch3 style\u003d\"text-align: left;\"\u003eAutomated Chargebacks\u003c/h3\u003e"
               }
             }
