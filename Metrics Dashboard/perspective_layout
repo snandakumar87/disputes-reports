@@ -3,5 +3,48 @@
   "name": "Metrics Dashboard",
   "style": "FLUID",
   "layoutProperties": {},
-  "rows": []
+  "rows": [
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.dashbuilder.client.navigation.layout.editor.NavTabListDragComponent",
+              "properties": {
+                "targetDivId": "1",
+                "navDefaultId": "perspective_1551728366620",
+                "navGroupId": "wb_group"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.TargetDivDragComponent",
+              "properties": {
+                "ID_PARAMETER": "1"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
