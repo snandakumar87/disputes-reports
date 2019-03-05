@@ -17,9 +17,10 @@
           "rows": [],
           "layoutComponents": [
             {
-              "dragTypeName": "org.dashbuilder.client.navigation.layout.editor.NavTilesDragComponent",
+              "dragTypeName": "org.dashbuilder.client.navigation.layout.editor.NavCarouselDragComponent",
               "properties": {
-                "navGroupId": "wb_group_track"
+                "navDefaultId": "perspective_1551728366620",
+                "navGroupId": "wb_group"
               }
             }
           ]
