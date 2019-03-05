@@ -6,7 +6,9 @@
   "rows": [
     {
       "height": "12",
-      "properties": {},
+      "properties": {
+        "margin-left": "150px"
+      },
       "layoutColumns": [
         {
           "span": "12",
@@ -17,7 +19,7 @@
             {
               "dragTypeName": "org.dashbuilder.client.editor.TableDragComponent",
               "properties": {
-                "json": "{\n  \"uuid\": \"gwt-uid-551\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"Automated Chargebacks\",\n    \"visible\": \"true\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"renderer\": \"gwtcharts\",\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"137097f4-ffa5-4e4c-ae48-d2fd8ab473fe\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"ITEMNAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"automated\"\n        ]\n      },\n      {\n        \"column\": \"ITEMVALUE\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"true\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"CASEID\",\n          \"column\": \"CASEID\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"LASTMODIFIED\",\n            \"column\": \"LASTMODIFIED\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
+                "json": "{\n  \"uuid\": \"gwt-uid-551\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"Automated Chargebacks\",\n    \"visible\": \"true\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"renderer\": \"default\",\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"137097f4-ffa5-4e4c-ae48-d2fd8ab473fe\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"ITEMNAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"automated\"\n        ]\n      },\n      {\n        \"column\": \"ITEMVALUE\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"true\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"CASEID\",\n          \"column\": \"CASEID\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"LASTMODIFIED\",\n            \"column\": \"LASTMODIFIED\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
               }
             }
           ]
