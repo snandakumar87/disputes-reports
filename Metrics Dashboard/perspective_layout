@@ -15,31 +15,9 @@
           "rows": [],
           "layoutComponents": [
             {
-              "dragTypeName": "org.dashbuilder.client.navigation.layout.editor.NavTabListDragComponent",
+              "dragTypeName": "org.dashbuilder.client.navigation.layout.editor.NavTilesDragComponent",
               "properties": {
-                "targetDivId": "1",
-                "navDefaultId": "perspective_1551728366620",
-                "navGroupId": "wb_group"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "height": "12",
-      "properties": {},
-      "layoutColumns": [
-        {
-          "span": "12",
-          "height": "12",
-          "properties": {},
-          "rows": [],
-          "layoutComponents": [
-            {
-              "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.TargetDivDragComponent",
-              "properties": {
-                "ID_PARAMETER": "1"
+                "navGroupId": "wb_group_track"
               }
             }
           ]
