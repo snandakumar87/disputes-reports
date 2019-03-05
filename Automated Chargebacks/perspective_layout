@@ -3,7 +3,7 @@
   "name": "Automated Chargebacks",
   "style": "FLUID",
   "layoutProperties": {
-    "margin-left": "150px",
+    "margin-left": "250px",
     "padding-left": "150px"
   },
   "rows": [
