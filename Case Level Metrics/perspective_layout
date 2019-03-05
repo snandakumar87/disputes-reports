@@ -3,7 +3,7 @@
   "name": "Case Level Metrics",
   "style": "FLUID",
   "layoutProperties": {
-    "margin-left": "150px",
+    "margin-left": "0px",
     "background-color": "#"
   },
   "rows": [
