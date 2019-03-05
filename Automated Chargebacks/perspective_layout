@@ -20,7 +20,7 @@
             {
               "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
               "properties": {
-                "HTML_CODE": "\u003ch3 style\u003d\"text-align: center;\"\u003eAutomated Chargebacks\u003c/h3\u003e"
+                "HTML_CODE": "\u003ch3 style\u003d\"text-align: left;\"\u003eAutomated Chargebacks\u003c/h3\u003e"
               }
             }
           ]
