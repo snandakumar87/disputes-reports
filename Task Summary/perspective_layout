@@ -3,7 +3,7 @@
   "name": "Task Summary",
   "style": "FLUID",
   "layoutProperties": {
-    "margin-left": "0px"
+    "margin-left": "400px"
   },
   "rows": [
     {
