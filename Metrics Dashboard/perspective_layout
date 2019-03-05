@@ -2,7 +2,9 @@
   "version": 2,
   "name": "Metrics Dashboard",
   "style": "FLUID",
-  "layoutProperties": {},
+  "layoutProperties": {
+    "margin-left": "250px"
+  },
   "rows": [
     {
       "height": "12",
