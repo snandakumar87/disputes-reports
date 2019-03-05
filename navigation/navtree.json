@@ -150,6 +150,13 @@
               "name": "Case Level Metrics",
               "modifiable": true,
               "context": "resourceId=Case Level Metrics;resourceType=PERSPECTIVE;"
+            },
+            {
+              "id": "perspective_1551797428754",
+              "type": "ITEM",
+              "name": "Automated Chargebacks",
+              "modifiable": true,
+              "context": "resourceId=Automated Chargebacks;resourceType=PERSPECTIVE;"
             }
           ]
         }
