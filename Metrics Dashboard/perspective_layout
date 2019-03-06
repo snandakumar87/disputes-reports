@@ -51,7 +51,7 @@
       "properties": {},
       "layoutColumns": [
         {
-          "span": "12",
+          "span": "6",
           "height": "12",
           "properties": {},
           "rows": [
@@ -59,34 +59,6 @@
               "height": "12",
               "properties": {},
               "layoutColumns": [
-                {
-                  "span": "12",
-                  "height": "6",
-                  "properties": {},
-                  "rows": [],
-                  "layoutComponents": [
-                    {
-                      "dragTypeName": "org.dashbuilder.client.editor.TableDragComponent",
-                      "properties": {
-                        "json": "{\n  \"uuid\": \"gwt-uid-5638\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\",\n    \"width\": \"2000\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"export\": {\n    \"export_xls\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"0aaf22d6-8e8a-46a4-af3d-1597b90b9595\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"groupFunctions\": [\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"TASKNAME\",\n            \"column\": \"TASKNAME\"\n          },\n          {\n            \"source\": \"CREATEDDATE\",\n            \"column\": \"CREATEDDATE\"\n          },\n          {\n            \"source\": \"ENDDATE\",\n            \"column\": \"ENDDATE\"\n          },\n          {\n            \"source\": \"DURATION\",\n            \"column\": \"DURATION\"\n          },\n          {\n            \"source\": \"STATUS\",\n            \"column\": \"STATUS\"\n          },\n          {\n            \"source\": \"USERID\",\n            \"column\": \"USERID\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  },\n  \"columns\": [\n    {\n      \"id\": \"DURATION\",\n      \"expression\": \"value/600\",\n      \"pattern\": \"#,##\"\n    }\n  ]\n}"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "span": "12",
-                  "height": "3",
-                  "properties": {},
-                  "rows": [],
-                  "layoutComponents": [
-                    {
-                      "dragTypeName": "org.dashbuilder.client.editor.BarChartDragComponent",
-                      "properties": {
-                        "json": "{\n  \"uuid\": \"gwt-uid-930\",\n  \"type\": \"BARCHART\",\n  \"subtype\": \"COLUMN\",\n  \"general\": {\n    \"title\": \"Agent Performance\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"250\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"40\",\n      \"left\": \"100\",\n      \"right\": \"50\"\n    },\n    \"legend\": {\n      \"show\": \"false\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"axis\": {\n    \"x\": {\n      \"labels_show\": \"true\",\n      \"title\": \"Agent\"\n    },\n    \"y\": {\n      \"labels_show\": \"true\",\n      \"title\": \"Tasks\"\n    }\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"0aaf22d6-8e8a-46a4-af3d-1597b90b9595\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"USERID\",\n          \"column\": \"USERID\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"USERID\",\n            \"column\": \"USERID\"\n          },\n          {\n            \"source\": \"TASK_ID\",\n            \"column\": \"TASK_ID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  },\n  \"columns\": [\n    {\n      \"id\": \"TASK_ID\",\n      \"pattern\": \"#,##\"\n    }\n  ]\n}"
-                      }
-                    }
-                  ]
-                },
                 {
                   "span": "12",
                   "height": "3",
@@ -100,11 +72,39 @@
                       }
                     }
                   ]
+                },
+                {
+                  "span": "12",
+                  "height": "9",
+                  "properties": {},
+                  "rows": [],
+                  "layoutComponents": [
+                    {
+                      "dragTypeName": "org.dashbuilder.client.editor.TableDragComponent",
+                      "properties": {
+                        "json": "{\n  \"uuid\": \"gwt-uid-5638\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\",\n    \"width\": \"2000\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"export\": {\n    \"export_xls\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"0aaf22d6-8e8a-46a4-af3d-1597b90b9595\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"groupFunctions\": [\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"TASKNAME\",\n            \"column\": \"TASKNAME\"\n          },\n          {\n            \"source\": \"CREATEDDATE\",\n            \"column\": \"CREATEDDATE\"\n          },\n          {\n            \"source\": \"ENDDATE\",\n            \"column\": \"ENDDATE\"\n          },\n          {\n            \"source\": \"DURATION\",\n            \"column\": \"DURATION\"\n          },\n          {\n            \"source\": \"STATUS\",\n            \"column\": \"STATUS\"\n          },\n          {\n            \"source\": \"USERID\",\n            \"column\": \"USERID\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  },\n  \"columns\": [\n    {\n      \"id\": \"DURATION\",\n      \"expression\": \"value/600\",\n      \"pattern\": \"#,##\"\n    }\n  ]\n}"
+                      }
+                    }
+                  ]
                 }
               ]
             }
           ],
           "layoutComponents": []
+        },
+        {
+          "span": "6",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.dashbuilder.client.editor.BarChartDragComponent",
+              "properties": {
+                "json": "{\n  \"uuid\": \"gwt-uid-930\",\n  \"type\": \"BARCHART\",\n  \"subtype\": \"COLUMN\",\n  \"general\": {\n    \"title\": \"Agent Performance\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"250\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"40\",\n      \"left\": \"100\",\n      \"right\": \"50\"\n    },\n    \"legend\": {\n      \"show\": \"false\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"axis\": {\n    \"x\": {\n      \"labels_show\": \"true\",\n      \"title\": \"Agent\"\n    },\n    \"y\": {\n      \"labels_show\": \"true\",\n      \"title\": \"Tasks\"\n    }\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"0aaf22d6-8e8a-46a4-af3d-1597b90b9595\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"USERID\",\n          \"column\": \"USERID\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"USERID\",\n            \"column\": \"USERID\"\n          },\n          {\n            \"source\": \"TASK_ID\",\n            \"column\": \"TASK_ID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  },\n  \"columns\": [\n    {\n      \"id\": \"TASK_ID\",\n      \"pattern\": \"#,##\"\n    }\n  ]\n}"
+              }
+            }
+          ]
         }
       ]
     }
