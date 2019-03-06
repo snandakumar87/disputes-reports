@@ -157,6 +157,13 @@
               "name": "Metrics Dashboard",
               "modifiable": true,
               "context": "resourceId=Metrics Dashboard;resourceType=PERSPECTIVE;"
+            },
+            {
+              "id": "perspective_1551882338715",
+              "type": "ITEM",
+              "name": "SLA",
+              "modifiable": true,
+              "context": "resourceId=SLA;resourceType=PERSPECTIVE;"
             }
           ]
         }
