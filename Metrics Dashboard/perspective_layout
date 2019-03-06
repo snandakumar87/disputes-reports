@@ -3,7 +3,7 @@
   "name": "Metrics Dashboard",
   "style": "FLUID",
   "layoutProperties": {
-    "margin-left": "550px"
+    "margin-left": "250px"
   },
   "rows": [
     {
