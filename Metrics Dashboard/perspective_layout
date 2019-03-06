@@ -115,6 +115,26 @@
           ]
         }
       ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
+              "properties": {
+                "HTML_CODE": "\u003cbr\u003e\u003chr\u003e"
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
