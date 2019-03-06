@@ -14,13 +14,16 @@
         {
           "span": "12",
           "height": "12",
-          "properties": {},
+          "properties": {
+            "padding-left": "20px"
+          },
           "rows": [],
           "layoutComponents": [
             {
               "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
               "properties": {
-                "HTML_CODE": "\u003ch3\u003eSLA Violation\u003c/h3\u003e\u003cbr\u003e\u003cbr\u003e"
+                "padding-left": "20px",
+                "HTML_CODE": "\u003chr\u003e\u003ch3 style\u003d\"text-align: center;\"\u003e\u003cspan style\u003d\"font-size: xx-large;\"\u003e\u003cb\u003e\u003ci\u003eSLA Violation\u003c/i\u003e\u003c/b\u003e\u003c/span\u003e\u003c/h3\u003e\u003chr\u003e"
               }
             }
           ]
