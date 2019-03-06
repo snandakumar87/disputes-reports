@@ -4,7 +4,7 @@
   "style": "FLUID",
   "layoutProperties": {
     "margin-left": "0px",
-    "padding-left": "400px"
+    "padding-left": "20px"
   },
   "rows": [
     {
@@ -14,9 +14,7 @@
         {
           "span": "12",
           "height": "12",
-          "properties": {
-            "padding-left": "20px"
-          },
+          "properties": {},
           "rows": [],
           "layoutComponents": [
             {
