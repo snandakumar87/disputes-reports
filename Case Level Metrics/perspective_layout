@@ -37,14 +37,14 @@
           "span": "6",
           "height": "12",
           "properties": {
-            "padding-left": "125px"
+            "padding-left": "150px"
           },
           "rows": [],
           "layoutComponents": [
             {
               "dragTypeName": "org.dashbuilder.client.editor.PieChartDragComponent",
               "properties": {
-                "padding-left": "125px",
+                "padding-left": "150px",
                 "json": "{\n  \"uuid\": \"gwt-uid-15547\",\n  \"type\": \"PIECHART\",\n  \"general\": {\n    \"title\": \"Customer Status\",\n    \"visible\": \"true\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"300\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"40\",\n      \"left\": \"10\",\n      \"right\": \"50\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"b52cb180-0191-4f4e-9f26-5639b29b52c9\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"NAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"customerStatus\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"VALUE\",\n          \"column\": \"VALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"VALUE\",\n            \"column\": \"VALUE\"\n          },\n          {\n            \"source\": \"PROCESSINSTANCEID\",\n            \"column\": \"PROCESSINSTANCEID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
               }
             }
@@ -74,14 +74,14 @@
           "span": "6",
           "height": "12",
           "properties": {
-            "padding-left": "125px"
+            "padding-left": "150px"
           },
           "rows": [],
           "layoutComponents": [
             {
               "dragTypeName": "org.dashbuilder.client.editor.BarChartDragComponent",
               "properties": {
-                "padding-left": "125px",
+                "padding-left": "150px",
                 "json": "{\n  \"uuid\": \"gwt-uid-492\",\n  \"type\": \"BARCHART\",\n  \"subtype\": \"COLUMN\",\n  \"general\": {\n    \"title\": \"2nd Level Approval\",\n    \"visible\": \"true\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"250\",\n    \"margin\": {\n      \"top\": \"20\",\n      \"bottom\": \"40\",\n      \"left\": \"100\",\n      \"right\": \"50\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"axis\": {\n    \"x\": {\n      \"title\": \"2nd Level Approval\",\n      \"labels_show\": \"true\"\n    },\n    \"y\": {\n      \"labels_show\": \"true\",\n      \"title\": \"Cases\"\n    }\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"b52cb180-0191-4f4e-9f26-5639b29b52c9\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"NAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"managerApproval\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"VALUE\",\n          \"column\": \"VALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"VALUE\",\n            \"column\": \"VALUE\"\n          },\n          {\n            \"source\": \"TASKID\",\n            \"column\": \"TASKID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  },\n  \"columns\": [\n    {\n      \"id\": \"VALUE\",\n      \"expression\": \"\u0027manager\u0027\"\n    }\n  ]\n}"
               }
             }
