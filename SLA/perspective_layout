@@ -32,21 +32,7 @@
       "properties": {},
       "layoutColumns": [
         {
-          "span": "6",
-          "height": "12",
-          "properties": {},
-          "rows": [],
-          "layoutComponents": [
-            {
-              "dragTypeName": "org.dashbuilder.client.editor.MetricDragComponent",
-              "properties": {
-                "json": "{\n  \"uuid\": \"gwt-uid-1773\",\n  \"type\": \"AREACHART\",\n  \"general\": {\n    \"title\": \"Population per Continent\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"300\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"40\",\n      \"left\": \"90\",\n      \"right\": \"10\"\n    },\n    \"legend\": {\n      \"show\": \"false\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"533c7fc6-e526-42f1-baa2-d5604dbb3e06\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"COMPLIANCE\",\n          \"column\": \"COMPLIANCE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"COMPLIANCE\",\n            \"column\": \"COMPLIANCE\"\n          },\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
-              }
-            }
-          ]
-        },
-        {
-          "span": "6",
+          "span": "12",
           "height": "12",
           "properties": {},
           "rows": [],
@@ -54,7 +40,7 @@
             {
               "dragTypeName": "org.dashbuilder.client.editor.TableDragComponent",
               "properties": {
-                "json": "{\n  \"uuid\": \"gwt-uid-1144\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"SLA Violation\",\n    \"visible\": \"false\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"export\": {\n    \"export_xls\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"533c7fc6-e526-42f1-baa2-d5604dbb3e06\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"groupFunctions\": [\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"COMPLIANCE\",\n            \"column\": \"COMPLIANCE\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
+                "json": "{\n  \"uuid\": \"gwt-uid-264\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"944c5c6e-4c27-4f6b-8dbb-d0fc1123504c\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"groupFunctions\": [\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"ENTITYID\",\n            \"column\": \"ENTITYID\"\n          },\n          {\n            \"source\": \"COMPLIANCETEXT\",\n            \"column\": \"COMPLIANCETEXT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
               }
             }
           ]
