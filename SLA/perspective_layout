@@ -3,7 +3,7 @@
   "name": "SLA",
   "style": "FLUID",
   "layoutProperties": {
-    "margin-left": "150px",
+    "margin-left": "0px",
     "padding-left": "400px"
   },
   "rows": [
