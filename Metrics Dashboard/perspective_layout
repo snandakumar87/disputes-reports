@@ -19,7 +19,7 @@
             {
               "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
               "properties": {
-                "HTML_CODE": "\u003ch3 style\u003d\"text-align: center;\"\u003eCall Center Metrics\u003c/h3\u003e\u003cbr\u003e\u003cbr\u003e"
+                "HTML_CODE": "\u003ch3 style\u003d\"text-align: left;\"\u003eCall Center Metrics\u003c/h3\u003e\u003chr\u003e"
               }
             }
           ]
