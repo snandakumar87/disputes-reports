@@ -2,7 +2,9 @@
   "version": 2,
   "name": "SLA",
   "style": "FLUID",
-  "layoutProperties": {},
+  "layoutProperties": {
+    "margin-left": "350px"
+  },
   "rows": [
     {
       "height": "12",
@@ -37,7 +39,7 @@
             {
               "dragTypeName": "org.dashbuilder.client.editor.TableDragComponent",
               "properties": {
-                "json": "{\n  \"uuid\": \"gwt-uid-1144\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"SLA Violation\",\n    \"visible\": \"true\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"export\": {\n    \"export_xls\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"533c7fc6-e526-42f1-baa2-d5604dbb3e06\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"groupFunctions\": [\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"COMPLIANCE\",\n            \"column\": \"COMPLIANCE\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
+                "json": "{\n  \"uuid\": \"gwt-uid-1144\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"SLA Violation\",\n    \"visible\": \"false\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"export\": {\n    \"export_xls\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"533c7fc6-e526-42f1-baa2-d5604dbb3e06\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"groupFunctions\": [\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"COMPLIANCE\",\n            \"column\": \"COMPLIANCE\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
               }
             }
           ]
