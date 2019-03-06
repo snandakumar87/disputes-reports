@@ -3,7 +3,7 @@
   "name": "Metrics Dashboard",
   "style": "FLUID",
   "layoutProperties": {
-    "margin-left": "250px"
+    "margin-left": "150px"
   },
   "rows": [
     {
@@ -33,9 +33,7 @@
         {
           "span": "6",
           "height": "12",
-          "properties": {
-            "padding-right": "0px"
-          },
+          "properties": {},
           "rows": [],
           "layoutComponents": [
             {
@@ -68,11 +66,29 @@
       "properties": {},
       "layoutColumns": [
         {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
+              "properties": {
+                "HTML_CODE": "\u003ch3\u003eAgent Performance Metrics\u003c/h3\u003e"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
           "span": "6",
           "height": "12",
-          "properties": {
-            "padding-right": "0px"
-          },
+          "properties": {},
           "rows": [],
           "layoutComponents": [
             {
