@@ -3,5 +3,26 @@
   "name": "Cockpit Dashboard",
   "style": "PAGE",
   "layoutProperties": {},
-  "rows": []
+  "rows": [
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
+              "properties": {
+                "HTML_CODE": "\u003cdiv style\u003d\"text-align: center;\"\u003e\u003cspan style\u003d\"font-size: xx-large;\"\u003e\u003chr\u003eCall Center Operations\u003chr\u003e\u003c/span\u003e\u003c/div\u003e"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
