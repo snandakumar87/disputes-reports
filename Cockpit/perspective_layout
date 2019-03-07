@@ -9,7 +9,7 @@
       "properties": {},
       "layoutColumns": [
         {
-          "span": "6",
+          "span": "5",
           "height": "12",
           "properties": {},
           "rows": [],
@@ -25,7 +25,7 @@
           ]
         },
         {
-          "span": "6",
+          "span": "4",
           "height": "12",
           "properties": {},
           "rows": [],
@@ -36,6 +36,20 @@
                 "margin-left": "0px",
                 "padding-left": "0px",
                 "perspectiveId": "caseDataMetrics"
+              }
+            }
+          ]
+        },
+        {
+          "span": "3",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.dashbuilder.client.cms.layout.editor.PerspectiveDragComponent",
+              "properties": {
+                "perspectiveId": "CaseLevelMetrics"
               }
             }
           ]
