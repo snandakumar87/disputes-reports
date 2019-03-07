@@ -15,9 +15,69 @@
           "rows": [],
           "layoutComponents": [
             {
+              "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
+              "properties": {
+                "HTML_CODE": "\u003chr\u003e\u003ci\u003e\u003cspan style\u003d\"font-size: large;\"\u003eAutomated vs Approval Chargebacks\u003c/span\u003e\u003c/i\u003e\u003chr\u003e"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
               "dragTypeName": "org.dashbuilder.client.editor.PieChartDragComponent",
               "properties": {
                 "json": "{\n  \"uuid\": \"gwt-uid-2466\",\n  \"type\": \"PIECHART\",\n  \"general\": {\n    \"title\": \"Population per Continent\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"400\",\n    \"height\": \"200\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"10\",\n      \"left\": \"10\",\n      \"right\": \"100\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"false\",\n    \"listening\": \"false\"\n  },\n  \"subtype\": \"DONUT\",\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"137097f4-ffa5-4e4c-ae48-d2fd8ab473fe\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"ITEMNAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"automated\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"ITEMVALUE\",\n          \"column\": \"ITEMVALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"ITEMVALUE\",\n            \"column\": \"ITEMVALUE\"\n          },\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID_2\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
+              "properties": {
+                "HTML_CODE": "\u003chr\u003e\u003ci\u003e\u003cspan style\u003d\"font-size: large;\"\u003eCustomer Status\u003c/span\u003e\u003c/i\u003e\u003chr\u003e"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
+              "properties": {
+                "HTML_CODE": "\u003chr\u003e\u003ci\u003e\u003cspan style\u003d\"font-size: large;\"\u003eCountry\u003c/span\u003e\u003c/i\u003e\u003chr\u003e"
               }
             }
           ]
@@ -39,7 +99,7 @@
               "layoutColumns": [
                 {
                   "span": "12",
-                  "height": "6",
+                  "height": "9",
                   "properties": {},
                   "rows": [],
                   "layoutComponents": [
@@ -53,7 +113,7 @@
                 },
                 {
                   "span": "12",
-                  "height": "6",
+                  "height": "3",
                   "properties": {},
                   "rows": [],
                   "layoutComponents": [
