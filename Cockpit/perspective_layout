@@ -29,7 +29,23 @@
       "properties": {},
       "layoutColumns": [
         {
-          "span": "5",
+          "span": "2",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.dashbuilder.client.navigation.layout.editor.NavTreeDragComponent",
+              "properties": {
+                "targetDivId": "Task Inbox",
+                "navDefaultId": "wb_entry_process_instances",
+                "navGroupId": "wb_group_manage"
+              }
+            }
+          ]
+        },
+        {
+          "span": "3",
           "height": "12",
           "properties": {},
           "rows": [],
