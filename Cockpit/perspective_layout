@@ -91,10 +91,9 @@
           "rows": [],
           "layoutComponents": [
             {
-              "dragTypeName": "org.dashbuilder.client.navigation.layout.editor.NavCarouselDragComponent",
+              "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.TargetDivDragComponent",
               "properties": {
-                "navDefaultId": "wb_entry_tasks_list",
-                "navGroupId": "wb_group_track"
+                "ID_PARAMETER": "Task Inbox"
               }
             }
           ]
