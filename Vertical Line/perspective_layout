@@ -3,5 +3,47 @@
   "name": "Vertical Line",
   "style": "FLUID",
   "layoutProperties": {},
-  "rows": []
+  "rows": [
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.TargetDivDragComponent",
+              "properties": {
+                "ID_PARAMETER": "123"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.dashbuilder.client.navigation.layout.editor.NavTreeDragComponent",
+              "properties": {
+                "targetDivId": "123",
+                "navGroupId": "wb_group_manage"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
