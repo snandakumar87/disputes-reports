@@ -108,16 +108,44 @@
           "span": "12",
           "height": "12",
           "properties": {},
-          "rows": [],
-          "layoutComponents": [
+          "rows": [
             {
-              "dragTypeName": "org.dashbuilder.client.cms.layout.editor.PerspectiveDragComponent",
-              "properties": {
-                "padding-left": "20px",
-                "perspectiveId": "PotentialOwnerView"
-              }
+              "height": "12",
+              "properties": {},
+              "layoutColumns": [
+                {
+                  "span": "12",
+                  "height": "6",
+                  "properties": {},
+                  "rows": [],
+                  "layoutComponents": [
+                    {
+                      "dragTypeName": "org.dashbuilder.client.cms.layout.editor.PerspectiveDragComponent",
+                      "properties": {
+                        "padding-left": "20px",
+                        "perspectiveId": "PotentialOwnerView"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "span": "12",
+                  "height": "6",
+                  "properties": {},
+                  "rows": [],
+                  "layoutComponents": [
+                    {
+                      "dragTypeName": "org.dashbuilder.client.editor.TableDragComponent",
+                      "properties": {
+                        "json": "{\n  \"uuid\": \"gwt-uid-13721\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"cd90bba3-6c60-476d-879b-27bb9704af15\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"groupFunctions\": [\n          {\n            \"source\": \"EXPIRATIONTIME\",\n            \"column\": \"EXPIRATIONTIME\"\n          },\n          {\n            \"source\": \"FAULTCONTENTID\",\n            \"column\": \"FAULTCONTENTID\"\n          },\n          {\n            \"source\": \"FAULTNAME\",\n            \"column\": \"FAULTNAME\"\n          },\n          {\n            \"source\": \"WORKITEMID\",\n            \"column\": \"WORKITEMID\"\n          },\n          {\n            \"source\": \"ACTUALOWNER_ID\",\n            \"column\": \"ACTUALOWNER_ID\"\n          },\n          {\n            \"source\": \"PRIORITY\",\n            \"column\": \"PRIORITY\"\n          },\n          {\n            \"source\": \"CREATEDBY_ID\",\n            \"column\": \"CREATEDBY_ID\"\n          },\n          {\n            \"source\": \"DOCUMENTTYPE\",\n            \"column\": \"DOCUMENTTYPE\"\n          },\n          {\n            \"source\": \"TASKINITIATOR_ID\",\n            \"column\": \"TASKINITIATOR_ID\"\n          },\n          {\n            \"source\": \"ACTIVATIONTIME\",\n            \"column\": \"ACTIVATIONTIME\"\n          },\n          {\n            \"source\": \"STATUS\",\n            \"column\": \"STATUS\"\n          },\n          {\n            \"source\": \"DESCRIPTION\",\n            \"column\": \"DESCRIPTION\"\n          },\n          {\n            \"source\": \"SKIPABLE\",\n            \"column\": \"SKIPABLE\"\n          },\n          {\n            \"source\": \"DEPLOYMENTID\",\n            \"column\": \"DEPLOYMENTID\"\n          },\n          {\n            \"source\": \"ALLOWEDTODELEGATE\",\n            \"column\": \"ALLOWEDTODELEGATE\"\n          },\n          {\n            \"source\": \"ID\",\n            \"column\": \"ID\"\n          },\n          {\n            \"source\": \"OUTPUTACCESSTYPE\",\n            \"column\": \"OUTPUTACCESSTYPE\"\n          },\n          {\n            \"source\": \"FAULTACCESSTYPE\",\n            \"column\": \"FAULTACCESSTYPE\"\n          },\n          {\n            \"source\": \"DOCUMENTCONTENTID\",\n            \"column\": \"DOCUMENTCONTENTID\"\n          },\n          {\n            \"source\": \"PROCESSSESSIONID\",\n            \"column\": \"PROCESSSESSIONID\"\n          },\n          {\n            \"source\": \"FORMNAME\",\n            \"column\": \"FORMNAME\"\n          },\n          {\n            \"source\": \"SUBTASKSTRATEGY\",\n            \"column\": \"SUBTASKSTRATEGY\"\n          },\n          {\n            \"source\": \"CREATEDON\",\n            \"column\": \"CREATEDON\"\n          },\n          {\n            \"source\": \"OUTPUTCONTENTID\",\n            \"column\": \"OUTPUTCONTENTID\"\n          },\n          {\n            \"source\": \"OPTLOCK\",\n            \"column\": \"OPTLOCK\"\n          },\n          {\n            \"source\": \"NAME\",\n            \"column\": \"NAME\"\n          },\n          {\n            \"source\": \"OUTPUTTYPE\",\n            \"column\": \"OUTPUTTYPE\"\n          },\n          {\n            \"source\": \"DOCUMENTACCESSTYPE\",\n            \"column\": \"DOCUMENTACCESSTYPE\"\n          },\n          {\n            \"source\": \"PROCESSINSTANCEID\",\n            \"column\": \"PROCESSINSTANCEID\"\n          },\n          {\n            \"source\": \"PARENTID\",\n            \"column\": \"PARENTID\"\n          },\n          {\n            \"source\": \"FAULTTYPE\",\n            \"column\": \"FAULTTYPE\"\n          },\n          {\n            \"source\": \"SUBJECT\",\n            \"column\": \"SUBJECT\"\n          },\n          {\n            \"source\": \"ARCHIVED\",\n            \"column\": \"ARCHIVED\"\n          },\n          {\n            \"source\": \"PROCESSID\",\n            \"column\": \"PROCESSID\"\n          },\n          {\n            \"source\": \"TASKTYPE\",\n            \"column\": \"TASKTYPE\"\n          },\n          {\n            \"source\": \"PREVIOUSSTATUS\",\n            \"column\": \"PREVIOUSSTATUS\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
-          ]
+          ],
+          "layoutComponents": []
         }
       ]
     }
