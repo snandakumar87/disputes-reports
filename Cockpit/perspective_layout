@@ -31,9 +31,7 @@
         {
           "span": "5",
           "height": "12",
-          "properties": {
-            "padding-left": "20px"
-          },
+          "properties": {},
           "rows": [],
           "layoutComponents": [
             {
@@ -76,6 +74,26 @@
               "properties": {
                 "background-color": "#",
                 "perspectiveId": "CaseLevelMetrics"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.dashbuilder.client.cms.layout.editor.PerspectiveDragComponent",
+              "properties": {
+                "perspectiveId": "PotentialOwnerView"
               }
             }
           ]
