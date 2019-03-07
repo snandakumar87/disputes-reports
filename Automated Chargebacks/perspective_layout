@@ -67,6 +67,28 @@
           "rows": [],
           "layoutComponents": [
             {
+              "dragTypeName": "org.dashbuilder.client.navigation.layout.editor.NavMenuBarDragComponent",
+              "properties": {
+                "targetDivId": "324",
+                "navDefaultId": "wb_entry_process_instances",
+                "navGroupId": "wb_group_manage"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
               "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.TargetDivDragComponent",
               "properties": {
                 "ID_PARAMETER": "324"
