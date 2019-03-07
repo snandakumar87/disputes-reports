@@ -11,12 +11,15 @@
         {
           "span": "12",
           "height": "12",
-          "properties": {},
+          "properties": {
+            "width": "50px"
+          },
           "rows": [],
           "layoutComponents": [
             {
               "dragTypeName": "org.dashbuilder.client.editor.PieChartDragComponent",
               "properties": {
+                "width": "50px",
                 "json": "{\n  \"uuid\": \"gwt-uid-1617\",\n  \"type\": \"PIECHART\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"300\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"10\",\n      \"left\": \"10\",\n      \"right\": \"10\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"9809e1b2-d9c6-4f8a-9c20-70227dadb579\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"NAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"GroupId\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"VALUE\",\n          \"column\": \"VALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"VALUE\",\n            \"column\": \"VALUE\"\n          },\n          {\n            \"source\": \"USERID\",\n            \"column\": \"USERID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
               }
             }
@@ -31,13 +34,16 @@
         {
           "span": "12",
           "height": "12",
-          "properties": {},
+          "properties": {
+            "width": "50px"
+          },
           "rows": [],
           "layoutComponents": [
             {
               "dragTypeName": "org.dashbuilder.client.editor.BarChartDragComponent",
               "properties": {
-                "json": "{\n  \"uuid\": \"gwt-uid-1902\",\n  \"type\": \"BARCHART\",\n  \"subtype\": \"BAR\",\n  \"general\": {\n    \"title\": \"Top Rich Countries\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"250\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"40\",\n      \"left\": \"50\",\n      \"right\": \"50\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"0aaf22d6-8e8a-46a4-af3d-1597b90b9595\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"USERID\",\n          \"column\": \"USERID\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"USERID\",\n            \"column\": \"USERID\"\n          },\n          {\n            \"source\": \"TASK_ID\",\n            \"column\": \"TASK_ID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
+                "width": "50px",
+                "json": "{\n  \"uuid\": \"gwt-uid-2908\",\n  \"type\": \"BARCHART\",\n  \"subtype\": \"COLUMN\",\n  \"general\": {\n    \"title\": \"Top Rich Countries\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"250\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"40\",\n      \"left\": \"100\",\n      \"right\": \"50\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"0aaf22d6-8e8a-46a4-af3d-1597b90b9595\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"USERID\",\n          \"column\": \"USERID\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"USERID\",\n            \"column\": \"USERID\"\n          },\n          {\n            \"source\": \"TASK_ID\",\n            \"column\": \"TASK_ID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  },\n  \"columns\": [\n    {\n      \"id\": \"TASK_ID\",\n      \"pattern\": \"#,##\"\n    }\n  ]\n}"
               }
             }
           ]
@@ -51,13 +57,16 @@
         {
           "span": "12",
           "height": "12",
-          "properties": {},
+          "properties": {
+            "width": "50px"
+          },
           "rows": [],
           "layoutComponents": [
             {
               "dragTypeName": "org.dashbuilder.client.editor.BarChartDragComponent",
               "properties": {
-                "json": "{\n  \"uuid\": \"gwt-uid-1751\",\n  \"type\": \"BARCHART\",\n  \"subtype\": \"BAR\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"250\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"40\",\n      \"left\": \"50\",\n      \"right\": \"50\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"0aaf22d6-8e8a-46a4-af3d-1597b90b9595\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"USERID\",\n          \"column\": \"USERID\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"USERID\",\n            \"column\": \"USERID\"\n          },\n          {\n            \"source\": \"DURATION\",\n            \"column\": \"DURATION\",\n            \"function\": \"AVERAGE\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
+                "width": "50px",
+                "json": "{\n  \"uuid\": \"gwt-uid-2933\",\n  \"type\": \"BARCHART\",\n  \"subtype\": \"COLUMN\",\n  \"general\": {\n    \"title\": \"Top Rich Countries\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"250\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"40\",\n      \"left\": \"100\",\n      \"right\": \"50\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"0aaf22d6-8e8a-46a4-af3d-1597b90b9595\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"USERID\",\n          \"column\": \"USERID\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"USERID\",\n            \"column\": \"USERID\"\n          },\n          {\n            \"source\": \"DURATION\",\n            \"column\": \"DURATION\",\n            \"function\": \"AVERAGE\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  },\n  \"columns\": [\n    {\n      \"id\": \"DURATION\",\n      \"expression\": \"value/600\",\n      \"pattern\": \"#,##\"\n    }\n  ]\n}"
               }
             }
           ]
