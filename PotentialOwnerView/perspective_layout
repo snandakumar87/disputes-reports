@@ -64,14 +64,14 @@
                   "span": "12",
                   "height": "6",
                   "properties": {
-                    "padding-left": "40px"
+                    "padding-left": "75px"
                   },
                   "rows": [],
                   "layoutComponents": [
                     {
                       "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
                       "properties": {
-                        "padding-left": "40px",
+                        "padding-left": "75px",
                         "HTML_CODE": "\u003chr\u003e\u003ci\u003e\u003cspan style\u003d\"font-size: large;\"\u003eSLA Violations\u003c/span\u003e\u003c/i\u003e\u003chr\u003e"
                       }
                     }
@@ -80,9 +80,7 @@
                 {
                   "span": "12",
                   "height": "6",
-                  "properties": {
-                    "padding-left": "125px"
-                  },
+                  "properties": {},
                   "rows": [],
                   "layoutComponents": [
                     {
