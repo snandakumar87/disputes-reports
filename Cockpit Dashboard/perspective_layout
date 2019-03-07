@@ -31,9 +31,7 @@
         {
           "span": "6",
           "height": "12",
-          "properties": {
-            "padding-right": "0px"
-          },
+          "properties": {},
           "rows": [],
           "layoutComponents": [
             {
@@ -48,12 +46,15 @@
         {
           "span": "3",
           "height": "12",
-          "properties": {},
+          "properties": {
+            "padding-left": "0px"
+          },
           "rows": [],
           "layoutComponents": [
             {
               "dragTypeName": "org.dashbuilder.client.editor.BarChartDragComponent",
               "properties": {
+                "padding-left": "0px",
                 "json": "{\n  \"uuid\": \"gwt-uid-552\",\n  \"type\": \"BARCHART\",\n  \"subtype\": \"BAR\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"250\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"40\",\n      \"left\": \"100\",\n      \"right\": \"50\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"0aaf22d6-8e8a-46a4-af3d-1597b90b9595\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"USERID\",\n          \"column\": \"USERID\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"USERID\",\n            \"column\": \"USERID\"\n          },\n          {\n            \"source\": \"TASK_ID\",\n            \"column\": \"TASK_ID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
               }
             }
@@ -62,12 +63,15 @@
         {
           "span": "3",
           "height": "12",
-          "properties": {},
+          "properties": {
+            "padding-left": "0px"
+          },
           "rows": [],
           "layoutComponents": [
             {
               "dragTypeName": "org.dashbuilder.client.editor.BarChartDragComponent",
               "properties": {
+                "padding-left": "0px",
                 "json": "{\n  \"uuid\": \"gwt-uid-625\",\n  \"type\": \"BARCHART\",\n  \"subtype\": \"BAR\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"250\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"40\",\n      \"left\": \"100\",\n      \"right\": \"50\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"0aaf22d6-8e8a-46a4-af3d-1597b90b9595\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"USERID\",\n          \"column\": \"USERID\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"USERID\",\n            \"column\": \"USERID\"\n          },\n          {\n            \"source\": \"DURATION\",\n            \"column\": \"DURATION\",\n            \"function\": \"AVERAGE\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
               }
             }
