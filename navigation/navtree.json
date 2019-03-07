@@ -138,13 +138,6 @@
               "context": "resourceId=TaskDashboardPerspective;resourceType=PERSPECTIVE;"
             },
             {
-              "id": "perspective_1551797428754",
-              "type": "ITEM",
-              "name": "Automated Chargebacks",
-              "modifiable": true,
-              "context": "resourceId=Automated Chargebacks;resourceType=PERSPECTIVE;"
-            },
-            {
               "id": "perspective_1551802057732",
               "type": "ITEM",
               "name": "Metrics Dashboard",
