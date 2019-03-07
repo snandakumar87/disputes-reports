@@ -143,6 +143,13 @@
               "name": "Cockpit",
               "modifiable": true,
               "context": "resourceId=Cockpit;resourceType=PERSPECTIVE;"
+            },
+            {
+              "id": "perspective_1551987277688",
+              "type": "ITEM",
+              "name": "Vertical Line",
+              "modifiable": true,
+              "context": "resourceId=Vertical Line;resourceType=PERSPECTIVE;"
             }
           ]
         }
