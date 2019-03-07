@@ -17,6 +17,26 @@
           "rows": [],
           "layoutComponents": [
             {
+              "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
+              "properties": {
+                "HTML_CODE": "\u003cfont size\u003d\"4\"\u003e\u003ci\u003eGroup Level Assignment\u003c/i\u003e\u003c/font\u003e"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
               "dragTypeName": "org.dashbuilder.client.editor.PieChartDragComponent",
               "properties": {
                 "padding-left": "60px",
