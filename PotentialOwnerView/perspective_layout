@@ -54,12 +54,15 @@
         {
           "span": "6",
           "height": "12",
-          "properties": {},
+          "properties": {
+            "padding-left": "50px"
+          },
           "rows": [],
           "layoutComponents": [
             {
               "dragTypeName": "org.dashbuilder.client.cms.layout.editor.PerspectiveDragComponent",
               "properties": {
+                "padding-left": "50px",
                 "perspectiveId": "SLA Violation"
               }
             }
