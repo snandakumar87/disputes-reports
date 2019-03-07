@@ -67,28 +67,6 @@
           "rows": [],
           "layoutComponents": [
             {
-              "dragTypeName": "org.dashbuilder.client.navigation.layout.editor.NavMenuBarDragComponent",
-              "properties": {
-                "targetDivId": "324",
-                "navDefaultId": "wb_entry_process_instances",
-                "navGroupId": "wb_group_manage"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "height": "12",
-      "properties": {},
-      "layoutColumns": [
-        {
-          "span": "12",
-          "height": "12",
-          "properties": {},
-          "rows": [],
-          "layoutComponents": [
-            {
               "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.TargetDivDragComponent",
               "properties": {
                 "ID_PARAMETER": "324"
@@ -109,10 +87,9 @@
           "rows": [],
           "layoutComponents": [
             {
-              "dragTypeName": "org.dashbuilder.client.editor.BarChartDragComponent",
+              "dragTypeName": "org.dashbuilder.client.editor.TableDragComponent",
               "properties": {
-                "padding-left": "300px",
-                "json": "{\n  \"uuid\": \"gwt-uid-7564\",\n  \"type\": \"BARCHART\",\n  \"subtype\": \"COLUMN\",\n  \"general\": {\n    \"title\": \"Top Rich Countries\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"250\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"40\",\n      \"left\": \"40\",\n      \"right\": \"50\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"axis\": {\n    \"x\": {\n      \"title\": \"Automated?\",\n      \"labels_show\": \"true\"\n    },\n    \"y\": {\n      \"labels_show\": \"true\",\n      \"title\": \"Cases\"\n    }\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"137097f4-ffa5-4e4c-ae48-d2fd8ab473fe\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"ITEMNAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"automated\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"ITEMVALUE\",\n          \"column\": \"ITEMVALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"ITEMVALUE\",\n            \"column\": \"ITEMVALUE\"\n          },\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
+                "json": "{\n  \"uuid\": \"gwt-uid-21867\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"686a3db9-b807-4701-8e88-519316c24ace\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"groupFunctions\": [\n          {\n            \"source\": \"SLACOMPLIANCE\",\n            \"column\": \"SLACOMPLIANCE\"\n          },\n          {\n            \"source\": \"USER_IDENTITY\",\n            \"column\": \"USER_IDENTITY\"\n          },\n          {\n            \"source\": \"OUTCOME\",\n            \"column\": \"OUTCOME\"\n          },\n          {\n            \"source\": \"END_DATE\",\n            \"column\": \"END_DATE\"\n          },\n          {\n            \"source\": \"START_DATE\",\n            \"column\": \"START_DATE\"\n          },\n          {\n            \"source\": \"PROCESSNAME\",\n            \"column\": \"PROCESSNAME\"\n          },\n          {\n            \"source\": \"PROCESSINSTANCEID\",\n            \"column\": \"PROCESSINSTANCEID\"\n          },\n          {\n            \"source\": \"STATUS\",\n            \"column\": \"STATUS\"\n          },\n          {\n            \"source\": \"PARENTPROCESSINSTANCEID\",\n            \"column\": \"PARENTPROCESSINSTANCEID\"\n          },\n          {\n            \"source\": \"PROCESSINSTANCEDESCRIPTION\",\n            \"column\": \"PROCESSINSTANCEDESCRIPTION\"\n          },\n          {\n            \"source\": \"SLA_DUE_DATE\",\n            \"column\": \"SLA_DUE_DATE\"\n          },\n          {\n            \"source\": \"PROCESSVERSION\",\n            \"column\": \"PROCESSVERSION\"\n          },\n          {\n            \"source\": \"ID\",\n            \"column\": \"ID\"\n          },\n          {\n            \"source\": \"CORRELATIONKEY\",\n            \"column\": \"CORRELATIONKEY\"\n          },\n          {\n            \"source\": \"PROCESSID\",\n            \"column\": \"PROCESSID\"\n          },\n          {\n            \"source\": \"PROCESSTYPE\",\n            \"column\": \"PROCESSTYPE\"\n          },\n          {\n            \"source\": \"DURATION\",\n            \"column\": \"DURATION\"\n          },\n          {\n            \"source\": \"EXTERNALID\",\n            \"column\": \"EXTERNALID\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
               }
             }
           ]
