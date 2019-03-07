@@ -63,9 +63,7 @@
                 {
                   "span": "12",
                   "height": "6",
-                  "properties": {
-                    "padding-left": "75px"
-                  },
+                  "properties": {},
                   "rows": [],
                   "layoutComponents": [
                     {
@@ -80,13 +78,15 @@
                 {
                   "span": "12",
                   "height": "6",
-                  "properties": {},
+                  "properties": {
+                    "padding-left": "150px"
+                  },
                   "rows": [],
                   "layoutComponents": [
                     {
                       "dragTypeName": "org.dashbuilder.client.editor.TableDragComponent",
                       "properties": {
-                        "padding-left": "125px",
+                        "padding-left": "150px",
                         "json": "{\n  \"uuid\": \"gwt-uid-5182\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"2f093a30-eb42-4939-8ef2-8ee52aa47e11\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"groupFunctions\": [\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"USER_IDENTITY\",\n            \"column\": \"USER_IDENTITY\"\n          },\n          {\n            \"source\": \"COMPLIANCETEXT\",\n            \"column\": \"COMPLIANCETEXT\"\n          },\n          {\n            \"source\": \"START_DATE\",\n            \"column\": \"START_DATE\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
                       }
                     }
