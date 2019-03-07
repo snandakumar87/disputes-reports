@@ -9,7 +9,7 @@
       "properties": {},
       "layoutColumns": [
         {
-          "span": "12",
+          "span": "6",
           "height": "12",
           "properties": {},
           "rows": [],
@@ -18,6 +18,20 @@
               "dragTypeName": "org.dashbuilder.client.cms.layout.editor.PerspectiveDragComponent",
               "properties": {
                 "perspectiveId": "Cockpit_Helper"
+              }
+            }
+          ]
+        },
+        {
+          "span": "6",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.dashbuilder.client.cms.layout.editor.PerspectiveDragComponent",
+              "properties": {
+                "perspectiveId": "caseDataMetrics"
               }
             }
           ]
