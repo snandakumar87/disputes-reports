@@ -87,9 +87,7 @@
         {
           "span": "12",
           "height": "12",
-          "properties": {
-            "padding-left": "20px"
-          },
+          "properties": {},
           "rows": [],
           "layoutComponents": [
             {
