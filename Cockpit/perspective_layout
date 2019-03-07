@@ -31,13 +31,16 @@
         {
           "span": "5",
           "height": "12",
-          "properties": {},
+          "properties": {
+            "padding-left": "10px"
+          },
           "rows": [],
           "layoutComponents": [
             {
               "dragTypeName": "org.dashbuilder.client.cms.layout.editor.PerspectiveDragComponent",
               "properties": {
                 "background-color": "#",
+                "padding-left": "10px",
                 "perspectiveId": "Cockpit_Helper",
                 "padding-right": "0px",
                 "margin-right": "0px"
