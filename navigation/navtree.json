@@ -170,7 +170,7 @@
               "type": "ITEM",
               "name": "Cockpit Dashboard",
               "modifiable": true,
-              "context": "resourceId=Cockpit Dashboard;resourceType=PERSPECTIVE;"
+              "context": "resourceId=Cockpit_Helper;resourceType=PERSPECTIVE;"
             }
           ]
         }
