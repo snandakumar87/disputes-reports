@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "Cockpit Dashboard",
+  "name": "Cockpit_Helper",
   "style": "FLUID",
   "layoutProperties": {},
   "rows": [
