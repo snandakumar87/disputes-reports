@@ -12,14 +12,14 @@
           "span": "5",
           "height": "12",
           "properties": {
-            "background-color": "#DAE6E6"
+            "background-color": "#"
           },
           "rows": [],
           "layoutComponents": [
             {
               "dragTypeName": "org.dashbuilder.client.cms.layout.editor.PerspectiveDragComponent",
               "properties": {
-                "background-color": "#DAE6E6",
+                "background-color": "#",
                 "perspectiveId": "Cockpit_Helper",
                 "padding-right": "0px",
                 "margin-right": "0px"
@@ -31,7 +31,8 @@
           "span": "4",
           "height": "12",
           "properties": {
-            "background-color": "#DAE6E6"
+            "background-color": "#",
+            "padding-left": "0px"
           },
           "rows": [],
           "layoutComponents": [
@@ -39,7 +40,7 @@
               "dragTypeName": "org.dashbuilder.client.cms.layout.editor.PerspectiveDragComponent",
               "properties": {
                 "margin-left": "0px",
-                "background-color": "#DAE6E6",
+                "background-color": "#",
                 "padding-left": "0px",
                 "perspectiveId": "caseDataMetrics"
               }
@@ -50,14 +51,14 @@
           "span": "3",
           "height": "12",
           "properties": {
-            "background-color": "#DAE6E6"
+            "background-color": "#"
           },
           "rows": [],
           "layoutComponents": [
             {
               "dragTypeName": "org.dashbuilder.client.cms.layout.editor.PerspectiveDragComponent",
               "properties": {
-                "background-color": "#DAE6E6",
+                "background-color": "#",
                 "perspectiveId": "CaseLevelMetrics"
               }
             }
