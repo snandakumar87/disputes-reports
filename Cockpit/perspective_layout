@@ -3,5 +3,26 @@
   "name": "Cockpit",
   "style": "FLUID",
   "layoutProperties": {},
-  "rows": []
+  "rows": [
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.dashbuilder.client.cms.layout.editor.PerspectiveDragComponent",
+              "properties": {
+                "perspectiveId": "Cockpit_Helper"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
