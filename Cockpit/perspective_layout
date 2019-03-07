@@ -29,23 +29,29 @@
       "properties": {},
       "layoutColumns": [
         {
-          "span": "2",
+          "span": "12",
           "height": "12",
           "properties": {},
           "rows": [],
           "layoutComponents": [
             {
-              "dragTypeName": "org.dashbuilder.client.navigation.layout.editor.NavTreeDragComponent",
+              "dragTypeName": "org.dashbuilder.client.navigation.layout.editor.NavMenuBarDragComponent",
               "properties": {
                 "targetDivId": "Task Inbox",
-                "navDefaultId": "wb_entry_process_instances",
+                "navDefaultId": "wb_entry_process_definitions",
                 "navGroupId": "wb_group_manage"
               }
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
         {
-          "span": "3",
+          "span": "5",
           "height": "12",
           "properties": {},
           "rows": [],
