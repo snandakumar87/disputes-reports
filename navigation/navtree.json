@@ -138,13 +138,6 @@
               "context": "resourceId=TaskDashboardPerspective;resourceType=PERSPECTIVE;"
             },
             {
-              "id": "perspective_1551802057732",
-              "type": "ITEM",
-              "name": "Metrics Dashboard",
-              "modifiable": true,
-              "context": "resourceId=Metrics Dashboard;resourceType=PERSPECTIVE;"
-            },
-            {
               "id": "perspective_1551882338715",
               "type": "ITEM",
               "name": "SLA",
