@@ -15,9 +15,11 @@
           "rows": [],
           "layoutComponents": [
             {
-              "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
+              "dragTypeName": "org.dashbuilder.client.navigation.layout.editor.NavMenuBarDragComponent",
               "properties": {
-                "HTML_CODE": "\u003cspan style\u003d\"font-size: xx-large;\"\u003e\u003cb\u003e\u003ci\u003e\u003chr\u003e\u003c/i\u003e\u003c/b\u003e\u003c/span\u003e\u003cdiv style\u003d\"text-align: center;\"\u003e\u003cspan style\u003d\"font-size: xx-large;\"\u003e\u003cb\u003e\u003ci\u003eOperations Management\u003c/i\u003e\u003c/b\u003e\u003c/span\u003e\u003c/div\u003e\u003cspan style\u003d\"font-size: xx-large;\"\u003e\u003cb\u003e\u003ci\u003e\u003chr\u003e\u003c/i\u003e\u003c/b\u003e\u003c/span\u003e"
+                "targetDivId": "Task Inbox",
+                "navDefaultId": "wb_entry_process_definitions",
+                "navGroupId": "wb_group_manage"
               }
             }
           ]
@@ -35,11 +37,9 @@
           "rows": [],
           "layoutComponents": [
             {
-              "dragTypeName": "org.dashbuilder.client.navigation.layout.editor.NavMenuBarDragComponent",
+              "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
               "properties": {
-                "targetDivId": "Task Inbox",
-                "navDefaultId": "wb_entry_process_definitions",
-                "navGroupId": "wb_group_manage"
+                "HTML_CODE": "\u003cspan style\u003d\"font-size: xx-large;\"\u003e\u003cb\u003e\u003ci\u003e\u003chr\u003e\u003c/i\u003e\u003c/b\u003e\u003c/span\u003e\u003cdiv style\u003d\"text-align: center;\"\u003e\u003cspan style\u003d\"font-size: xx-large;\"\u003e\u003cb\u003e\u003ci\u003eOperations Management\u003c/i\u003e\u003c/b\u003e\u003c/span\u003e\u003c/div\u003e\u003cspan style\u003d\"font-size: xx-large;\"\u003e\u003cb\u003e\u003ci\u003e\u003chr\u003e\u003c/i\u003e\u003c/b\u003e\u003c/span\u003e"
               }
             }
           ]
