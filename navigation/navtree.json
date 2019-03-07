@@ -138,13 +138,6 @@
               "context": "resourceId=TaskDashboardPerspective;resourceType=PERSPECTIVE;"
             },
             {
-              "id": "perspective_1551882338715",
-              "type": "ITEM",
-              "name": "SLA",
-              "modifiable": true,
-              "context": "resourceId=SLA;resourceType=PERSPECTIVE;"
-            },
-            {
               "id": "perspective_1551967230059",
               "type": "ITEM",
               "name": "Cockpit",
