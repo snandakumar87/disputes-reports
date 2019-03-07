@@ -164,13 +164,6 @@
               "name": "SLA",
               "modifiable": true,
               "context": "resourceId=SLA;resourceType=PERSPECTIVE;"
-            },
-            {
-              "id": "perspective_1551963317403",
-              "type": "ITEM",
-              "name": "Cockpit Dashboard",
-              "modifiable": true,
-              "context": "resourceId=Cockpit_Helper;resourceType=PERSPECTIVE;"
             }
           ]
         }
