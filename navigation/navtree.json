@@ -138,13 +138,6 @@
               "context": "resourceId=TaskDashboardPerspective;resourceType=PERSPECTIVE;"
             },
             {
-              "id": "perspective_1551732063492",
-              "type": "ITEM",
-              "name": "Case Level Metrics",
-              "modifiable": true,
-              "context": "resourceId=Case Level Metrics;resourceType=PERSPECTIVE;"
-            },
-            {
               "id": "perspective_1551797428754",
               "type": "ITEM",
               "name": "Automated Chargebacks",
