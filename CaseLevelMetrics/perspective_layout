@@ -100,7 +100,7 @@
                     {
                       "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
                       "properties": {
-                        "HTML_CODE": "\u003chr\u003e\u003ch3\u003e\u003ci\u003e\u003cspan style\u003d\"font-size: large;\"\u003eSLA Violations By User\u003c/span\u003e\u003c/i\u003e\u003c/h3\u003e\u003cdiv\u003e\u003ci\u003e\u003cspan style\u003d\"font-size: large;\"\u003e\u003cbr\u003e\u003c/span\u003e\u003c/i\u003e\u003c/div\u003e\u003chr\u003e"
+                        "HTML_CODE": "\u003chr\u003e\u003ch3\u003e\u003ci\u003e\u003cspan style\u003d\"font-size: large;\"\u003eSLA Violations By User\u003c/span\u003e\u003c/i\u003e\u003c/h3\u003e\u003cbr\u003e \u003chr\u003e"
                       }
                     }
                   ]
