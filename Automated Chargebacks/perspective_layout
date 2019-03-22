@@ -12,7 +12,7 @@
       "properties": {},
       "layoutColumns": [
         {
-          "span": "6",
+          "span": "12",
           "height": "12",
           "properties": {},
           "rows": [],
@@ -20,21 +20,7 @@
             {
               "dragTypeName": "org.dashbuilder.client.editor.PieChartDragComponent",
               "properties": {
-                "json": "{\n  \"uuid\": \"gwt-uid-63701\",\n  \"type\": \"PIECHART\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"300\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"10\",\n      \"left\": \"10\",\n      \"right\": \"100\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"Left\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"false\",\n    \"listening\": \"false\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"3b069e8c-ca4e-4110-bb77-09f2188dfc48\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"ITEMNAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"agentGroup\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"ITEMVALUE\",\n          \"column\": \"ITEMVALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"ITEMVALUE\",\n            \"column\": \"ITEMVALUE\"\n          },\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
-              }
-            }
-          ]
-        },
-        {
-          "span": "6",
-          "height": "12",
-          "properties": {},
-          "rows": [],
-          "layoutComponents": [
-            {
-              "dragTypeName": "org.dashbuilder.client.editor.PieChartDragComponent",
-              "properties": {
-                "json": "{\n  \"uuid\": \"gwt-uid-22503\",\n  \"type\": \"PIECHART\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"300\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"10\",\n      \"left\": \"0\",\n      \"right\": \"100\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"Left\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"6742574a-edce-43ae-ae0f-094249cb2ea9\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"STATUS\",\n          \"column\": \"STATUS\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"STATUS\",\n            \"column\": \"STATUS\"\n          },\n          {\n            \"source\": \"TASK_ID\",\n            \"column\": \"TASK_ID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
+                "json": "{\n  \"uuid\": \"gwt-uid-22931\",\n  \"type\": \"PIECHART\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"300\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"10\",\n      \"left\": \"30\",\n      \"right\": \"100\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"137097f4-ffa5-4e4c-ae48-d2fd8ab473fe\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"ITEMNAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"automated\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"ITEMVALUE\",\n          \"column\": \"ITEMVALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"ITEMVALUE\",\n            \"column\": \"ITEMVALUE\"\n          },\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
               }
             }
           ]
