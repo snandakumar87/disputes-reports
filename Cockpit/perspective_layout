@@ -141,27 +141,6 @@
           ]
         }
       ]
-    },
-    {
-      "height": "12",
-      "properties": {},
-      "layoutColumns": [
-        {
-          "span": "12",
-          "height": "12",
-          "properties": {},
-          "rows": [],
-          "layoutComponents": [
-            {
-              "dragTypeName": "org.dashbuilder.client.cms.layout.editor.PerspectiveDragComponent",
-              "properties": {
-                "padding-left": "20px",
-                "perspectiveId": "PotentialOwnerView"
-              }
-            }
-          ]
-        }
-      ]
     }
   ]
 }
