@@ -79,7 +79,7 @@
               "layoutColumns": [
                 {
                   "span": "12",
-                  "height": "6",
+                  "height": "5",
                   "properties": {},
                   "rows": [],
                   "layoutComponents": [
@@ -93,7 +93,21 @@
                 },
                 {
                   "span": "12",
-                  "height": "6",
+                  "height": "4",
+                  "properties": {},
+                  "rows": [],
+                  "layoutComponents": [
+                    {
+                      "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
+                      "properties": {
+                        "HTML_CODE": "\u003chr\u003e\u003ch3\u003e\u003ci\u003e\u003cspan style\u003d\"font-size: large;\"\u003eSLA Violations By User\u003c/span\u003e\u003c/i\u003e\u003c/h3\u003e\u003chr\u003e"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "span": "12",
+                  "height": "3",
                   "properties": {},
                   "rows": [],
                   "layoutComponents": [
