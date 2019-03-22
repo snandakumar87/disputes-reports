@@ -51,6 +51,26 @@
       "properties": {},
       "layoutColumns": [
         {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.dashbuilder.client.cms.layout.editor.PerspectiveDragComponent",
+              "properties": {
+                "perspectiveId": "Summary"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
           "span": "5",
           "height": "12",
           "properties": {},
