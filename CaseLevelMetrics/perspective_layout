@@ -57,7 +57,7 @@
             {
               "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
               "properties": {
-                "HTML_CODE": "\u003chr\u003e\u003ci\u003e\u003cspan style\u003d\"font-size: large;\"\u003eCustomer Status\u003c/span\u003e\u003c/i\u003e\u003chr\u003e"
+                "HTML_CODE": "\u003chr\u003e\u003ci\u003e\u003cspan style\u003d\"font-size: large;\"\u003eSLA Violations\u003c/span\u003e\u003c/i\u003e\u003chr\u003e"
               }
             }
           ]
@@ -79,42 +79,28 @@
               "layoutColumns": [
                 {
                   "span": "12",
-                  "height": "5",
+                  "height": "6",
                   "properties": {},
                   "rows": [],
                   "layoutComponents": [
                     {
                       "dragTypeName": "org.dashbuilder.client.editor.PieChartDragComponent",
                       "properties": {
-                        "json": "{\n  \"uuid\": \"gwt-uid-2553\",\n  \"type\": \"PIECHART\",\n  \"general\": {\n    \"title\": \"Population per Continent\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"400\",\n    \"height\": \"250\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"10\",\n      \"left\": \"10\",\n      \"right\": \"100\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"false\",\n    \"selfapply\": \"false\",\n    \"notification\": \"false\",\n    \"listening\": \"false\"\n  },\n  \"subtype\": \"DONUT\",\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"137097f4-ffa5-4e4c-ae48-d2fd8ab473fe\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"ITEMNAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"customerStatus\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"ITEMVALUE\",\n          \"column\": \"ITEMVALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"ITEMVALUE\",\n            \"column\": \"ITEMVALUE\"\n          },\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
+                        "json": "{\n  \"uuid\": \"gwt-uid-2553\",\n  \"type\": \"PIECHART\",\n  \"general\": {\n    \"title\": \"Population per Continent\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"400\",\n    \"height\": \"250\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"10\",\n      \"left\": \"10\",\n      \"right\": \"100\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"false\",\n    \"selfapply\": \"false\",\n    \"notification\": \"false\",\n    \"listening\": \"false\"\n  },\n  \"subtype\": \"DONUT\",\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"2f093a30-eb42-4939-8ef2-8ee52aa47e11\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"COMPLIANCETEXT\",\n          \"column\": \"COMPLIANCETEXT\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"COMPLIANCETEXT\",\n            \"column\": \"COMPLIANCETEXT\"\n          },\n          {\n            \"source\": \"SLACOMPLIANCE\",\n            \"column\": \"SLACOMPLIANCE\",\n            \"function\": \"SUM\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
                       }
                     }
                   ]
                 },
                 {
                   "span": "12",
-                  "height": "4",
+                  "height": "6",
                   "properties": {},
                   "rows": [],
                   "layoutComponents": [
                     {
-                      "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
+                      "dragTypeName": "org.dashbuilder.client.editor.TableDragComponent",
                       "properties": {
-                        "HTML_CODE": "\u003chr\u003e\u003ci\u003e\u003cspan style\u003d\"font-size: large;\"\u003eCountry\u003c/span\u003e\u003c/i\u003e\u003chr\u003e"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "span": "12",
-                  "height": "3",
-                  "properties": {},
-                  "rows": [],
-                  "layoutComponents": [
-                    {
-                      "dragTypeName": "org.dashbuilder.client.editor.PieChartDragComponent",
-                      "properties": {
-                        "json": "{\n  \"uuid\": \"gwt-uid-2640\",\n  \"type\": \"PIECHART\",\n  \"general\": {\n    \"title\": \"Population per Continent\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"400\",\n    \"height\": \"250\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"10\",\n      \"left\": \"10\",\n      \"right\": \"100\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"false\",\n    \"selfapply\": \"false\",\n    \"notification\": \"false\",\n    \"listening\": \"false\"\n  },\n  \"subtype\": \"DONUT\",\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"137097f4-ffa5-4e4c-ae48-d2fd8ab473fe\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"ITEMNAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"country\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"ITEMVALUE\",\n          \"column\": \"ITEMVALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"ITEMVALUE\",\n            \"column\": \"ITEMVALUE\"\n          },\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
+                        "json": "{\n  \"uuid\": \"gwt-uid-26821\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"2f093a30-eb42-4939-8ef2-8ee52aa47e11\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"groupFunctions\": [\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"USER_IDENTITY\",\n            \"column\": \"USER_IDENTITY\"\n          },\n          {\n            \"source\": \"COMPLIANCETEXT\",\n            \"column\": \"COMPLIANCETEXT\"\n          },\n          {\n            \"source\": \"START_DATE\",\n            \"column\": \"START_DATE\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  }\n}"
                       }
                     }
                   ]
