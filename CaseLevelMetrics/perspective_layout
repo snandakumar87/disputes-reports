@@ -17,7 +17,7 @@
             {
               "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
               "properties": {
-                "HTML_CODE": "\u003chr\u003e\u003ci\u003e\u003cspan style\u003d\"font-size: large;\"\u003eAutomated vs Approval Chargebacks\u003c/span\u003e\u003c/i\u003e\u003chr\u003e"
+                "HTML_CODE": "\u003chr\u003e\u003ci\u003e\u003cspan style\u003d\"font-size: large;\"\u003eAutomated vs Investigation Flows\u003c/span\u003e\u003c/i\u003e"
               }
             }
           ]
