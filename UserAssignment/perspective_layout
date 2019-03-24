@@ -63,7 +63,7 @@
       "properties": {},
       "layoutColumns": [
         {
-          "span": "12",
+          "span": "6",
           "height": "12",
           "properties": {},
           "rows": [],
@@ -75,15 +75,9 @@
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "height": "12",
-      "properties": {},
-      "layoutColumns": [
+        },
         {
-          "span": "12",
+          "span": "6",
           "height": "12",
           "properties": {},
           "rows": [],
