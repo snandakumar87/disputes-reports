@@ -145,20 +145,6 @@
               "context": "resourceId=Cockpit;resourceType=PERSPECTIVE;"
             },
             {
-              "id": "perspective_1551987277688",
-              "type": "ITEM",
-              "name": "Vertical Line",
-              "modifiable": true,
-              "context": "resourceId=Vertical Line;resourceType=PERSPECTIVE;"
-            },
-            {
-              "id": "perspective_1551987716603",
-              "type": "ITEM",
-              "name": "Automated Chargebacks",
-              "modifiable": true,
-              "context": "resourceId=Automated Chargebacks;resourceType=PERSPECTIVE;"
-            },
-            {
               "id": "perspective_1553400959187",
               "type": "ITEM",
               "name": "UserAssignment",
