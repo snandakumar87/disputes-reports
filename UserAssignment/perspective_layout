@@ -29,7 +29,7 @@
       "properties": {},
       "layoutColumns": [
         {
-          "span": "9",
+          "span": "5",
           "height": "12",
           "properties": {},
           "rows": [],
@@ -43,7 +43,7 @@
           ]
         },
         {
-          "span": "2",
+          "span": "4",
           "height": "12",
           "properties": {},
           "rows": [],
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "span": "1",
+          "span": "3",
           "height": "12",
           "properties": {},
           "rows": [],
