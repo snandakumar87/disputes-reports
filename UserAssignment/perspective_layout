@@ -43,7 +43,7 @@
           ]
         },
         {
-          "span": "7",
+          "span": "4",
           "height": "12",
           "properties": {},
           "rows": [],
@@ -55,15 +55,9 @@
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "height": "12",
-      "properties": {},
-      "layoutColumns": [
+        },
         {
-          "span": "6",
+          "span": "3",
           "height": "12",
           "properties": {},
           "rows": [],
@@ -78,19 +72,25 @@
               }
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
         {
-          "span": "6",
+          "span": "12",
           "height": "12",
           "properties": {
-            "padding-left": "10px"
+            "padding-left": "170px"
           },
           "rows": [],
           "layoutComponents": [
             {
               "dragTypeName": "org.dashbuilder.client.editor.TableDragComponent",
               "properties": {
-                "padding-left": "10px",
+                "padding-left": "170px",
                 "json": "{\n  \"uuid\": \"gwt-uid-1876\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"6742574a-edce-43ae-ae0f-094249cb2ea9\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"CASEID\",\n          \"column\": \"CASEID\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"STATUS\",\n            \"column\": \"STATUS\"\n          },\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"ACTUALOWNER_ID\",\n            \"column\": \"ACTUALOWNER_ID\"\n          },\n          {\n            \"source\": \"TASK_ID\",\n            \"column\": \"TASK_ID\"\n          },\n          {\n            \"source\": \"DURATION\",\n            \"column\": \"DURATION\"\n          },\n          {\n            \"source\": \"ENDDATE\",\n            \"column\": \"ENDDATE\"\n          },\n          {\n            \"source\": \"TASKNAME\",\n            \"column\": \"TASKNAME\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  },\n  \"columns\": [\n    {\n      \"id\": \"ACTUALOWNER_ID\",\n      \"name\": \"USER_ASSIGNMENT\"\n    },\n    {\n      \"id\": \"TASK_ID\",\n      \"pattern\": \"#,##\"\n    }\n  ]\n}"
               }
             }
