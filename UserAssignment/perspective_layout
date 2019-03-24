@@ -63,11 +63,9 @@
       "properties": {},
       "layoutColumns": [
         {
-          "span": "6",
+          "span": "12",
           "height": "12",
-          "properties": {
-            "padding-left": "50px"
-          },
+          "properties": {},
           "rows": [],
           "layoutComponents": [
             {
@@ -78,9 +76,15 @@
               }
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
         {
-          "span": "6",
+          "span": "12",
           "height": "12",
           "properties": {},
           "rows": [],
