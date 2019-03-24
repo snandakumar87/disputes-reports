@@ -3,5 +3,100 @@
   "name": "UserAssignment",
   "style": "FLUID",
   "layoutProperties": {},
-  "rows": []
+  "rows": [
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.uberfire.ext.plugin.client.perspective.editor.layout.editor.HTMLLayoutDragComponent",
+              "properties": {
+                "HTML_CODE": "\u003cspan style\u003d\"font-size: x-large;\"\u003e\u003chr\u003e\u003c/span\u003e\u003cdiv style\u003d\"text-align: center;\"\u003e\u003cspan style\u003d\"font-size: x-large;\"\u003eUser Assignment\u003c/span\u003e\u003c/div\u003e\u003cspan style\u003d\"font-size: x-large;\"\u003e\u003chr\u003e\u003c/span\u003e"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "6",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.dashbuilder.client.editor.BarChartDragComponent",
+              "properties": {
+                "json": "{\n  \"uuid\": \"gwt-uid-224\",\n  \"type\": \"BARCHART\",\n  \"subtype\": \"COLUMN\",\n  \"general\": {\n    \"title\": \"Top Rich Countries\",\n    \"visible\": \"false\"\n  },\n  \"chart\": {\n    \"width\": \"500\",\n    \"height\": \"250\",\n    \"margin\": {\n      \"top\": \"10\",\n      \"bottom\": \"40\",\n      \"left\": \"100\",\n      \"right\": \"50\"\n    },\n    \"legend\": {\n      \"show\": \"true\",\n      \"position\": \"RIGHT\"\n    }\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"false\",\n    \"listening\": \"false\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"137097f4-ffa5-4e4c-ae48-d2fd8ab473fe\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"ITEMNAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"agentGroup\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"ITEMVALUE\",\n          \"column\": \"ITEMVALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"ITEMVALUE\",\n            \"column\": \"ITEMVALUE\"\n          },\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\",\n            \"function\": \"COUNT\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  },\n  \"columns\": [\n    {\n      \"id\": \"CASEID\",\n      \"pattern\": \"#,##\"\n    }\n  ]\n}"
+              }
+            }
+          ]
+        },
+        {
+          "span": "6",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.dashbuilder.client.editor.TableDragComponent",
+              "properties": {
+                "json": "{\n  \"uuid\": \"gwt-uid-320\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"137097f4-ffa5-4e4c-ae48-d2fd8ab473fe\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"ITEMNAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"agentGroup\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"ITEMVALUE\",\n          \"column\": \"ITEMVALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"LASTMODIFIED\",\n            \"column\": \"LASTMODIFIED\"\n          },\n          {\n            \"source\": \"ITEMVALUE\",\n            \"column\": \"ITEMVALUE\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  },\n  \"columns\": [\n    {\n      \"id\": \"ITEMVALUE\",\n      \"name\": \"WorkQueueAssignment\"\n    },\n    {\n      \"id\": \"LASTMODIFIED\",\n      \"name\": \"CREATED_DATE\"\n    }\n  ]\n}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.dashbuilder.client.editor.TableDragComponent",
+              "properties": {
+                "json": "{\n  \"uuid\": \"gwt-uid-1060\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"137097f4-ffa5-4e4c-ae48-d2fd8ab473fe\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"filterOps\": [\n      {\n        \"column\": \"ITEMNAME\",\n        \"function\": \"EQUALS_TO\",\n        \"args\": [\n          \"userString\"\n        ]\n      }\n    ],\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"ITEMVALUE\",\n          \"column\": \"ITEMVALUE\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"ITEMVALUE\",\n            \"column\": \"ITEMVALUE\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  },\n  \"columns\": [\n    {\n      \"id\": \"ITEMVALUE\",\n      \"name\": \"User Assignment\"\n    }\n  ]\n}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": "12",
+      "properties": {},
+      "layoutColumns": [
+        {
+          "span": "12",
+          "height": "12",
+          "properties": {},
+          "rows": [],
+          "layoutComponents": [
+            {
+              "dragTypeName": "org.dashbuilder.client.editor.TableDragComponent",
+              "properties": {
+                "json": "{\n  \"uuid\": \"gwt-uid-1876\",\n  \"type\": \"TABLE\",\n  \"general\": {\n    \"title\": \"- New Displayer -\",\n    \"visible\": \"false\"\n  },\n  \"table\": {\n    \"sort\": {\n      \"enabled\": \"true\",\n      \"order\": \"DESCENDING\"\n    },\n    \"pageSize\": \"10\"\n  },\n  \"filter\": {\n    \"enabled\": \"true\",\n    \"selfapply\": \"false\",\n    \"notification\": \"true\",\n    \"listening\": \"true\"\n  },\n  \"dataSetLookup\": {\n    \"dataSetUuid\": \"6742574a-edce-43ae-ae0f-094249cb2ea9\",\n    \"rowCount\": \"-1\",\n    \"rowOffset\": \"0\",\n    \"groupOps\": [\n      {\n        \"columnGroup\": {\n          \"source\": \"CASEID\",\n          \"column\": \"CASEID\",\n          \"groupStrategy\": \"DYNAMIC\",\n          \"maxIntervals\": \"15\",\n          \"emptyIntervals\": \"false\",\n          \"asc\": \"true\",\n          \"firstMonthOfYear\": \"JANUARY\",\n          \"firstDayOfWeek\": \"MONDAY\"\n        },\n        \"groupFunctions\": [\n          {\n            \"source\": \"STATUS\",\n            \"column\": \"STATUS\"\n          },\n          {\n            \"source\": \"CASEID\",\n            \"column\": \"CASEID\"\n          },\n          {\n            \"source\": \"ACTUALOWNER_ID\",\n            \"column\": \"ACTUALOWNER_ID\"\n          },\n          {\n            \"source\": \"TASK_ID\",\n            \"column\": \"TASK_ID\"\n          },\n          {\n            \"source\": \"DURATION\",\n            \"column\": \"DURATION\"\n          },\n          {\n            \"source\": \"ENDDATE\",\n            \"column\": \"ENDDATE\"\n          },\n          {\n            \"source\": \"TASKNAME\",\n            \"column\": \"TASKNAME\"\n          }\n        ],\n        \"join\": \"false\"\n      }\n    ]\n  },\n  \"columns\": [\n    {\n      \"id\": \"ACTUALOWNER_ID\",\n      \"name\": \"USER_ASSIGNMENT\"\n    },\n    {\n      \"id\": \"TASK_ID\",\n      \"pattern\": \"#,##\"\n    }\n  ]\n}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
