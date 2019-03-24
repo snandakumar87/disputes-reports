@@ -157,6 +157,13 @@
               "name": "Automated Chargebacks",
               "modifiable": true,
               "context": "resourceId=Automated Chargebacks;resourceType=PERSPECTIVE;"
+            },
+            {
+              "id": "perspective_1553400959187",
+              "type": "ITEM",
+              "name": "UserAssignment",
+              "modifiable": true,
+              "context": "resourceId=UserAssignment;resourceType=PERSPECTIVE;"
             }
           ]
         }
